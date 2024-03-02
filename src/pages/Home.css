@@ -1,0 +1,43 @@
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-bottom: solid 2px rgb(0, 0, 0, 0.4);
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  height: 70vh;
+  border-right: solid 2px rgb(0, 0, 0, 0.4);
+}
+
+.heroFooter {
+  border-top: solid 2px rgb(0, 0, 0, 0.4);
+  border-right: solid 2px rgb(0, 0, 0, 0.4);
+  border-bottom: solid 2px rgb(0, 0, 0, 0.4);
+
+  height: 19vh;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameDot {
+  color: #ff5f5c;
+}
+
+.branding {
+  font-weight: bold;
+  color: rgb(0, 0, 0, 0.7);
+}
