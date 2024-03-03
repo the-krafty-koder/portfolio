@@ -108,7 +108,7 @@ const Projects = () => {
           />
           <Project
             index={4}
-            description="Like Sytch above, but for the command line."
+            description="Free subtitles download, but on the command line."
             imageUrl={tafsiriGif}
             title="Tafsiri"
             technologies={["Node", "Cheerio", "Figlet"]}

@@ -3,6 +3,7 @@ import { Box, Link, Stack, Typography, Button, Grid } from "@mui/material";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import homeImage from "../assets/home-image.png";
 
 export const Navbar = () => {
   return (
@@ -108,7 +109,17 @@ const Home = () => {
           item
           xs={5}
           sx={{ borderBottom: "solid 2px rgb(0, 0, 0, 0.4)" }}
-        ></Grid>
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Box height="70vh">
+            <img
+              src={homeImage}
+              style={{ objectFit: "contain", height: "100%", width: "100%" }}
+            />
+          </Box>
+        </Grid>
       </Grid>
     </Box>
   );
