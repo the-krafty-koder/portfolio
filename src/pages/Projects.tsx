@@ -4,6 +4,7 @@ import { Navbar } from "./Home";
 import lilacLanding from "../assets/lilac-landing.png";
 import sytchLanding from "../assets/sytch-landing.png";
 import tafsiriGif from "../assets/tafsiri.gif";
+import portfolioImage from "../assets/portfolio.png";
 import reconciliatorImage from "../assets/reconciliator.png";
 import pdf2JsonImage from "../assets/pdf2json.png";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
@@ -65,7 +66,15 @@ const Projects = () => {
     <Box>
       <Navbar></Navbar>
       <Box className="content">
-        <Typography variant="h5">Projects i've worked on</Typography>
+        <Stack direction="row" justifyContent="space-between">
+          <Typography variant="h5">Projects i've worked on</Typography>
+          <Button
+            variant="contained"
+            href="https://github.com/the-krafty-koder"
+          >
+            More on Github
+          </Button>
+        </Stack>
         <Stack>
           <Project
             index={1}
@@ -79,7 +88,7 @@ const Projects = () => {
               "IBM Cloud Storage",
               "Typescript",
             ]}
-            link="https://heylilac.com"
+            link="https://app.heylilac.com"
           />
           <Project
             index={2}
@@ -87,15 +96,23 @@ const Projects = () => {
             imageUrl={sytchLanding}
             title="Sytch"
             technologies={["React", "Typescript"]}
-            link="https://heylilac.com"
+            link="https://sytch.ambitlabs.co"
           />
           <Project
             index={3}
             description="A tool that generates a report showing reconciliation errors between two csv files"
             imageUrl={reconciliatorImage}
-            title="Reconciliator"
+            title="Reconciler"
             technologies={["Python", "Pandas"]}
-            link="/"
+            link="https://reconciler.ambitlabs.co"
+          />
+          <Project
+            index={3}
+            description="My portfolio"
+            imageUrl={portfolioImage}
+            title="Portfolio"
+            technologies={["Typescript", "React"]}
+            link="https://portfolio.ambitlabs.co"
           />
           <Project
             index={5}
