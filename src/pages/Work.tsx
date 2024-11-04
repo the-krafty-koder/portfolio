@@ -53,11 +53,12 @@ const Work = () => {
               </Stack>
             </ListItem>
             <ListItem>
-              <Typography marginRight={2}>Frameworks/Tools:</Typography>
+              <Typography marginRight={2}>Frameworks:</Typography>
               <Stack direction="row" spacing={2}>
                 <Chip label="Django"></Chip>
                 <Chip label="Node/Express"></Chip>
                 <Chip label="React"></Chip>
+                <Chip label="Flask"></Chip>
                 <Chip label="Odoo"></Chip>
               </Stack>
             </ListItem>
@@ -67,6 +68,15 @@ const Work = () => {
                 <Chip label="AWS"></Chip>
                 <Chip label="Docker"></Chip>
                 <Chip label="Kubernetes"></Chip>
+              </Stack>
+            </ListItem>
+            <ListItem>
+              <Typography marginRight={2}>Tools</Typography>
+              <Stack direction="row" spacing={2}>
+                <Chip label="Redis"></Chip>
+                <Chip label="Git"></Chip>
+                <Chip label="GraphQL"></Chip>
+                <Chip label="Linux"></Chip>
               </Stack>
             </ListItem>
           </List>
@@ -83,14 +93,14 @@ const Work = () => {
                       height: "100%",
                       width: "100%",
                     }}
-                    src="https://media.licdn.com/dms/image/D4E0BAQFWPoowJyoC4A/company-logo_200_200/0/1664881688974/heytint_logo?e=1717632000&v=beta&t=ofjzD9q3_-09NPzrUvi4GyalJrQrSqdzfFIIjwfbJ-0"
+                    src="https://media.licdn.com/dms/image/v2/D4E0BAQFWPoowJyoC4A/company-logo_200_200/company-logo_200_200/0/1664881688974/heytint_logo?e=1738800000&v=beta&t=QaT8AcTZcpjNtx-9qELAEcggYIrnIUTJTXYv2vTVYjs"
                   ></img>
                 </Avatar>
               </Grid>
               <Grid item xs={3}>
                 <Stack spacing={1}>
                   <Link href="https://www.tint.ai">
-                    <Typography variant="h6">Tint</Typography>
+                    <Typography variant="h6">Tint AI</Typography>
                   </Link>
                   <Typography>Software Engineer</Typography>
                   <Typography variant="caption">
@@ -155,7 +165,7 @@ const Work = () => {
                       height: "100%",
                       width: "100%",
                     }}
-                    src="https://media.licdn.com/dms/image/D4D0BAQEXjMozKc5IFQ/company-logo_200_200/0/1665589109108/traktion_ai_logo?e=1717632000&v=beta&t=qcfDvikDlarUVAZ2IArTd2hLqDGhOEcXqy5Sp4NuOH8"
+                    src="https://media.licdn.com/dms/image/v2/D4D0BAQEXjMozKc5IFQ/company-logo_200_200/company-logo_200_200/0/1665589109108/traktion_ai_logo?e=1738800000&v=beta&t=UewVIf-WWLVeb2u9-JCtcJ6yvAPYesZZEmcyEj8lpCw"
                   ></img>
                 </Avatar>
               </Grid>
@@ -219,7 +229,7 @@ const Work = () => {
                       height: "100%",
                       width: "100%",
                     }}
-                    src="https://media.licdn.com/dms/image/C510BAQE9whuJccuQ2g/company-logo_200_200/0/1630609769760?e=1717632000&v=beta&t=XMDByJ1uLJzyMGNcM9Qt5vG_o8BkMIcwjZuHEKb-J9w"
+                    src="https://media.licdn.com/dms/image/v2/C510BAQE9whuJccuQ2g/company-logo_200_200/company-logo_200_200/0/1630609769760?e=1738800000&v=beta&t=5Z99AWGAqSLje1SCH5_QXUCcve67wgrGgRWuD7RhtME"
                   />
                 </Avatar>
               </Grid>
@@ -268,7 +278,7 @@ const Work = () => {
                       height: "100%",
                       width: "100%",
                     }}
-                    src="https://media.licdn.com/dms/image/C4D0BAQF03eXgax7IRg/company-logo_200_200/0/1630500280929/hikaya_io_logo?e=1717632000&v=beta&t=E_TENDlDrGuDTkCLD1fGOTQb8JgiV2P-2TwfFopbJqA"
+                    src="https://media.licdn.com/dms/image/v2/C4D0BAQF03eXgax7IRg/company-logo_200_200/company-logo_200_200/0/1630500280929/hikaya_io_logo?e=1738800000&v=beta&t=ajnjOKuIr5c89qvQqw_c18VC5ZybrQfs13nnuXfiVLA"
                   />
                 </Avatar>
               </Grid>

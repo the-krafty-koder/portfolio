@@ -5,7 +5,8 @@ import lilacLanding from "../assets/lilac-landing.png";
 import sytchLanding from "../assets/sytch-landing.png";
 import tafsiriGif from "../assets/tafsiri.gif";
 import portfolioImage from "../assets/portfolio.png";
-import reconciliatorImage from "../assets/reconciliator.png";
+import reconciler from "../assets/reconciler.gif";
+import scraperAPI from "../assets/scraperapidemo.gif";
 import pdf2JsonImage from "../assets/pdf2json.png";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
@@ -52,7 +53,7 @@ const Project = ({
               ))}
             </Stack>
             <Button href={link} variant="contained" sx={{ marginTop: "50px" }}>
-              <Typography>See live site</Typography>
+              <Typography>View live</Typography>
               <ArrowOutwardIcon />
             </Button>
           </Stack>
@@ -67,7 +68,7 @@ const Projects = () => {
       <Navbar></Navbar>
       <Box className="content">
         <Stack direction="row" justifyContent="space-between">
-          <Typography variant="h5">Projects i've worked on</Typography>
+          <Typography variant="h5">Side Projects </Typography>
           <Button
             variant="contained"
             href="https://github.com/the-krafty-koder"
@@ -76,7 +77,7 @@ const Projects = () => {
           </Button>
         </Stack>
         <Stack>
-          <Project
+          {/*<Project
             index={1}
             description="Terms of service management for startups and scaleups."
             imageUrl={lilacLanding}
@@ -89,9 +90,9 @@ const Projects = () => {
               "Typescript",
             ]}
             link="https://app.heylilac.com"
-          />
+          />*/}
           <Project
-            index={2}
+            index={1}
             description="Free subtitles download for your favourite tv shows in multiple languages."
             imageUrl={sytchLanding}
             title="Sytch"
@@ -99,13 +100,23 @@ const Projects = () => {
             link="https://sytch.ambitlabs.co"
           />
           <Project
-            index={3}
+            index={2}
             description="A tool that generates a report showing reconciliation errors between two csv files"
-            imageUrl={reconciliatorImage}
+            imageUrl={reconciler}
             title="Reconciler"
             technologies={["Python", "Pandas"]}
-            link="https://reconciler.ambitlabs.co"
+            link="https://github.com/the-krafty-koder/reconciliation"
           />
+
+          <Project
+            index={5}
+            description="A web scraper for jobs from workinstartups.com whose results are exposed via an api"
+            imageUrl={scraperAPI}
+            title="ScraperAPI"
+            technologies={["Typescript", "Node", "Express"]}
+            link="https://github.com/the-krafty-koder/scraperapi"
+          />
+
           <Project
             index={3}
             description="My portfolio"
@@ -115,21 +126,21 @@ const Projects = () => {
             link="https://portfolio.ambitlabs.co"
           />
           <Project
-            index={5}
-            description="A python package that converts documents
-            into JSON (displayed per page) and optionally sends them to Algolia as index records."
-            imageUrl={pdf2JsonImage}
-            title="Pdf2JSON"
-            technologies={["Python", "PyPdf", "AlgoliaSearch"]}
-            link="https://github.com/the-krafty-koder/pdf2json"
-          />
-          <Project
             index={4}
             description="Free subtitles download, but on the command line."
             imageUrl={tafsiriGif}
             title="Tafsiri"
             technologies={["Node", "Cheerio", "Figlet"]}
             link="https://github.com/the-krafty-koder/tafsiri"
+          />
+
+          <Project
+            index={6}
+            description="A tool that extracts data from documents and optionally sends them to Algolia as searchable records."
+            imageUrl={pdf2JsonImage}
+            title="Pdf2JSON"
+            technologies={["Python", "PyPdf", "AlgoliaSearch"]}
+            link="https://github.com/the-krafty-koder/pdf2json"
           />
         </Stack>
       </Box>
