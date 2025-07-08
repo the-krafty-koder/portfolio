@@ -77,7 +77,7 @@ const Projects = () => {
           </Button>
         </Stack>
         <Stack>
-          {/*<Project
+          <Project
             index={1}
             description="Terms of service management for startups and scaleups."
             imageUrl={lilacLanding}
@@ -89,10 +89,10 @@ const Projects = () => {
               "IBM Cloud Storage",
               "Typescript",
             ]}
-            link="https://app.heylilac.com"
-          />*/}
+            link="https://github.com/the-krafty-koder/kibali"
+          />
           <Project
-            index={1}
+            index={2}
             description="Free subtitles download for your favourite tv shows in multiple languages."
             imageUrl={sytchLanding}
             title="Sytch"
@@ -100,7 +100,7 @@ const Projects = () => {
             link="https://sytch.ambitlabs.co"
           />
           <Project
-            index={2}
+            index={3}
             description="A tool that generates a report showing reconciliation errors between two csv files"
             imageUrl={reconciler}
             title="Reconciler"
@@ -109,7 +109,7 @@ const Projects = () => {
           />
 
           <Project
-            index={5}
+            index={4}
             description="A web scraper for jobs from workinstartups.com whose results are exposed via an api"
             imageUrl={scraperAPI}
             title="ScraperAPI"
@@ -118,7 +118,7 @@ const Projects = () => {
           />
 
           <Project
-            index={3}
+            index={5}
             description="My portfolio"
             imageUrl={portfolioImage}
             title="Portfolio"
@@ -126,7 +126,7 @@ const Projects = () => {
             link="https://portfolio.ambitlabs.co"
           />
           <Project
-            index={4}
+            index={6}
             description="Free subtitles download, but on the command line."
             imageUrl={tafsiriGif}
             title="Tafsiri"
@@ -135,7 +135,7 @@ const Projects = () => {
           />
 
           <Project
-            index={6}
+            index={7}
             description="A tool that extracts data from documents and optionally sends them to Algolia as searchable records."
             imageUrl={pdf2JsonImage}
             title="Pdf2JSON"
