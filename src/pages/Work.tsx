@@ -103,9 +103,7 @@ const Work = () => {
                     <Typography variant="h6">Tint AI</Typography>
                   </Link>
                   <Typography>Software Engineer</Typography>
-                  <Typography variant="caption">
-                    July 2022 - February 2024
-                  </Typography>
+                  <Typography variant="caption">2022 - 2024</Typography>
                   <Stack direction="row">
                     <PlaceIcon />
                     <Typography variant="body2">
@@ -175,9 +173,7 @@ const Work = () => {
                     <Typography variant="h6">Traktion</Typography>
                   </Link>
                   <Typography>Fullstack Developer</Typography>
-                  <Typography variant="caption">
-                    February 2021 - March 2022
-                  </Typography>
+                  <Typography variant="caption">2021 - 2022</Typography>
                   <Stack direction="row">
                     <PlaceIcon />
                     <Typography variant="body2">Remote (London)</Typography>
@@ -240,9 +236,7 @@ const Work = () => {
                   </Link>
                   <Typography>Software Engineer</Typography>
 
-                  <Typography variant="caption">
-                    September 2020 - February 2021 (Contract)
-                  </Typography>
+                  <Typography variant="caption">2020 - 2021</Typography>
                   <Stack direction="row">
                     <PlaceIcon />
                     <Typography variant="body2">Remote (Singapore)</Typography>
