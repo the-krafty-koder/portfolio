@@ -93,7 +93,7 @@ const Work = () => {
                       height: "100%",
                       width: "100%",
                     }}
-                    src="https://media.licdn.com/dms/image/v2/D4E0BAQFWPoowJyoC4A/company-logo_200_200/company-logo_200_200/0/1664881688974/heytint_logo?e=1738800000&v=beta&t=QaT8AcTZcpjNtx-9qELAEcggYIrnIUTJTXYv2vTVYjs"
+                    src="https://www.tint.ai/hs-fs/hubfs/Tint-logo-tm@4x.png?width=2138&height=604&name=Tint-logo-tm@4x.png"
                   ></img>
                 </Avatar>
               </Grid>
@@ -163,7 +163,7 @@ const Work = () => {
                       height: "100%",
                       width: "100%",
                     }}
-                    src="https://media.licdn.com/dms/image/v2/D4D0BAQEXjMozKc5IFQ/company-logo_200_200/company-logo_200_200/0/1665589109108/traktion_ai_logo?e=1738800000&v=beta&t=UewVIf-WWLVeb2u9-JCtcJ6yvAPYesZZEmcyEj8lpCw"
+                    src="https://cdn.prod.website-files.com/62f62f25a5ab4c95150473af/65cb38410bbae3bef074a4ab_Traktion_byIDX.svg"
                   ></img>
                 </Avatar>
               </Grid>
@@ -225,7 +225,7 @@ const Work = () => {
                       height: "100%",
                       width: "100%",
                     }}
-                    src="https://media.licdn.com/dms/image/v2/C510BAQE9whuJccuQ2g/company-logo_200_200/company-logo_200_200/0/1630609769760?e=1738800000&v=beta&t=5Z99AWGAqSLje1SCH5_QXUCcve67wgrGgRWuD7RhtME"
+                    src="https://aiconex.com/wp-content/uploads/aiconex-logo-bloack.png"
                   />
                 </Avatar>
               </Grid>
@@ -272,13 +272,13 @@ const Work = () => {
                       height: "100%",
                       width: "100%",
                     }}
-                    src="https://media.licdn.com/dms/image/v2/C4D0BAQF03eXgax7IRg/company-logo_200_200/company-logo_200_200/0/1630500280929/hikaya_io_logo?e=1738800000&v=beta&t=ajnjOKuIr5c89qvQqw_c18VC5ZybrQfs13nnuXfiVLA"
+                    src="https://camo.githubusercontent.com/77d104f575df29b0764ee799ebde86ce42c861db6e6c2b28a1d0d1077e8271fb/68747470733a2f2f73332e68696b6179612e696f2f68696b6179612f68696b6179612d776f72646d61726b2d6c6f676f2e706e67"
                   />
                 </Avatar>
               </Grid>
               <Grid item xs={3}>
                 <Stack spacing={1}>
-                  <Link href="https://aiconex.com/">
+                  <Link href="https://hikaya.io/">
                     <Typography variant="h6">Hikaya</Typography>
                   </Link>
                   <Typography>Open source contributor</Typography>
